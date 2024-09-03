@@ -1,0 +1,121 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["HideHeader"] = true;
+}
+
+@* @model PlugIn.Dal.Models.ApplicationUser *@
+@model IEnumerable<PlugIn.Dal.Models.ApplicationProject>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        <style >
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            height: 100%;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .project-card {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 200px; /* Фиксированная высота карточки */
+        }
+
+            .project-card h3 {
+                margin: 0;
+                color: #007bff;
+                font-size: 1.2rem;
+            }
+
+            .project-card p {
+                margin: 0;
+                color: #6c757d;
+            }
+    </style>
+
+    </style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+			<div class="container-fluid">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+						aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav flex-grow-1">
+						<li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="IndexAuthorized">Home</a>
+						</li>
+					</ul>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link btn btn-primary text-white ml-2" asp-area="" asp-controller="Home" asp-action="AddApplication">Add Project</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link btn btn-danger text-white ml-2" asp-area="" asp-controller="Home" asp-action="UserLogOut">LogOut</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+    <div class="container">
+        <div class="header">
+            My Projects
+        </div>
+        <div class="grid-container">
+            @foreach (var project in Model)
+            {
+                <div class="project-card">
+                    <h3>@project.Name</h3>
+                    <p>@project.Description</p>
+                </div>
+            }
+        </div>
+    </div>
+
+
+	
+    <!-- Scripts for validation -->
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
