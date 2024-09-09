@@ -7,18 +7,20 @@ using System.Diagnostics;
 
 namespace PlugIn.Controllers
 {
-	public class HomeController : Controller
+	public class HomeController(IProjectRepository projectRepository, PlugInDbContext context) : Controller
     {
-        private readonly IProjectRepository _projectRepository;
-		private readonly PlugInDbContext _context;
+        private readonly IProjectRepository _projectRepository = projectRepository;
+		private readonly PlugInDbContext _context = context;
 
-		public HomeController(IProjectRepository projectRepository, PlugInDbContext context)
+        public IActionResult WrongPassword()
         {
-            _projectRepository = projectRepository;
-            _context = context;
+            return View();
         }
-
-        public IActionResult Index()
+        public IActionResult ConfirmEmail()
+        {
+            return View();
+        }
+		public IActionResult Index()
         {
             return View();
         }
@@ -69,14 +71,12 @@ namespace PlugIn.Controllers
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("Index");
+					return RedirectToAction("Index");
                 }
                 else
-                    ModelState.AddModelError("",
-                        result.Errors.Select(e => "Code: " + e.Description + " Description: " + e.Code + " ,")
-                .Aggregate((e, delimiter) => e + delimiter));
+                    return RedirectToAction("WrongPassword");
             }
-            return View(form);
+            return View("WrongPassword");
         }
         public IActionResult UsersHomePage()
         {
@@ -129,8 +129,8 @@ namespace PlugIn.Controllers
                 }
                 else
                 {
-                    CookieOptions options = new CookieOptions
-                    {
+                    CookieOptions options = new()
+					{
                         Expires = DateTimeOffset.UtcNow.AddMinutes(15),
                         
                         IsEssential = true
