@@ -16,7 +16,7 @@ namespace PlugIn.Models
 			_smtpUser = smtpUser;
 			_smtpPass = smtpPass;
 		}
-		public async Task<bool> SendEmailAsync(string toEmail, string subject, string body)
+		public async Task<bool> SendEmailAsync(string toEmail, string body)
 		{
 			using (var client = new SmtpClient(_smtpServer, _smtpPort))
 			{
@@ -26,7 +26,7 @@ namespace PlugIn.Models
 				var mailMessage = new MailMessage
 				{
 					From = new MailAddress(_smtpUser),
-					Subject = subject,
+					//Subject = subject,
 					Body = body,
 					IsBodyHtml = true
 				};

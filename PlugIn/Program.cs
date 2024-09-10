@@ -39,13 +39,13 @@ namespace PlugIn
 
 			builder.Services.Configure<IdentityOptions>(options =>
 			{
-				options.Password.RequireDigit = true;
+				options.Password.RequireDigit = false;
 				options.Password.RequireLowercase = true;
 				options.Password.RequireNonAlphanumeric = false;
-				options.Password.RequireUppercase = true;
+				options.Password.RequireUppercase = false;
 				options.Password.RequiredLength = 6;
-				options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-				options.Lockout.MaxFailedAccessAttempts = 5;
+				//options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
+				//options.Lockout.MaxFailedAccessAttempts = 5;
 				options.User.RequireUniqueEmail = true;
 			});
 			var app = builder.Build();

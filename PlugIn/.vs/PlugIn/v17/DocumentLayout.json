@@ -3,49 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\views\\home\\wrongpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:views\\home\\wrongpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6573D18-BE80-4050-B8B8-A880D4B3037A}|..\\PlugIn.Contracts\\PlugIn.Contracts.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin.contracts\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\views\\home\\userregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:views\\home\\userregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\repository\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:repository\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\views\\home\\myprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:views\\home\\myprojects.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\views\\home\\invalidpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:views\\home\\invalidpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\extensions\\applicationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:extensions\\applicationextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CDC6C9A-B137-4761-A582-57A378B40471}|..\\PlugIn.Dal\\PlugIn.Dal.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin.dal\\plugin.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\repository\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\repository\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:repository\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -56,162 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WrongPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Views\\Home\\WrongPassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\WrongPassword.cshtml",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Views\\Home\\WrongPassword.cshtml*",
-              "RelativeToolTip": "Views\\Home\\WrongPassword.cshtml*",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAAAH0AAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T16:09:22.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterForm.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn.Contracts\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "..\\PlugIn.Contracts\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn.Contracts\\RegisterForm.cs",
-              "RelativeToolTip": "..\\PlugIn.Contracts\\RegisterForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Models\\EmailService.cs",
+              "RelativeDocumentMoniker": "Models\\EmailService.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Models\\EmailService.cs",
+              "RelativeToolTip": "Models\\EmailService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwBwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:36:29.909Z",
+              "WhenOpened": "2024-09-10T15:57:43.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "IProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\IProjectRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IProjectRepository.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\IProjectRepository.cs",
+              "RelativeToolTip": "Repository\\IProjectRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T15:13:49.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ProjectRepository.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\ProjectRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProjectRepository.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\ProjectRepository.cs",
               "RelativeToolTip": "Repository\\ProjectRepository.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAgwCYAAAAIAAAA",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowFYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T15:52:13.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Models\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Models\\RegisterViewModel.cs",
-              "RelativeToolTip": "Models\\RegisterViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:36:12.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRegister.cshtml",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Views\\Home\\UserRegister.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\UserRegister.cshtml",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Views\\Home\\UserRegister.cshtml",
-              "RelativeToolTip": "Views\\Home\\UserRegister.cshtml",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAAAJUAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:34:28.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MyProjects.cshtml",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Views\\Home\\MyProjects.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\MyProjects.cshtml",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Views\\Home\\MyProjects.cshtml",
-              "RelativeToolTip": "Views\\Home\\MyProjects.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:18:35.612Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAIAwwE8AAAAIAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAAAgwFEAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T15:23:33.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InvalidPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Views\\Home\\InvalidPassword.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\InvalidPassword.cshtml",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Views\\Home\\InvalidPassword.cshtml",
-              "RelativeToolTip": "Views\\Home\\InvalidPassword.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-09T15:18:36.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAQwEIAAAAYAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwC4AAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T15:44:19.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationExtension.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Extensions\\ApplicationExtension.cs",
-              "RelativeDocumentMoniker": "Extensions\\ApplicationExtension.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Extensions\\ApplicationExtension.cs",
-              "RelativeToolTip": "Extensions\\ApplicationExtension.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T15:10:09.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PlugIn.Dal.csproj",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn.Dal\\PlugIn.Dal.csproj",
-              "RelativeDocumentMoniker": "..\\PlugIn.Dal\\PlugIn.Dal.csproj",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn.Dal\\PlugIn.Dal.csproj",
-              "RelativeToolTip": "..\\PlugIn.Dal\\PlugIn.Dal.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-05T15:02:50.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\IProjectRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\IProjectRepository.cs",
-              "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\IProjectRepository.cs",
-              "RelativeToolTip": "Repository\\IProjectRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABRAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T03:06:08.405Z",
               "EditorCaption": ""
             }
           ]

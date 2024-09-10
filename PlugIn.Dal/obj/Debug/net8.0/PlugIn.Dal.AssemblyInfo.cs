@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlugIn.Dal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7edcc537909cb32e23e10180c331e4bd21ce5842")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71ba09a71430ed59295fc5a7a1ea75b8e0e2b4fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlugIn.Dal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlugIn.Dal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
