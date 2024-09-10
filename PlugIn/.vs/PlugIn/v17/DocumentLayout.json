@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\repository\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:repository\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +17,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\repository\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:repository\\iprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|c:\\users\\acer\\source\\projects\\plugin\\plugin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E987FB-8122-4896-B195-48612C89EE71}|PlugIn.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Models\\EmailService.cs",
               "RelativeDocumentMoniker": "Models\\EmailService.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Models\\EmailService.cs",
               "RelativeToolTip": "Models\\EmailService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAYwBwAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T15:57:43.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IProjectRepository.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\IProjectRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IProjectRepository.cs",
@@ -60,33 +60,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProjectRepository.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\ProjectRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ProjectRepository.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Repository\\ProjectRepository.cs",
               "RelativeToolTip": "Repository\\ProjectRepository.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAowFYAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T15:52:13.529Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAgwFEAAAA1AAAA",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAvwEoAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T15:23:33.17Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\source\\Projects\\PlugIn\\PlugIn\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
