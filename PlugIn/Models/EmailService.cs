@@ -26,7 +26,7 @@ namespace PlugIn.Models
 				var mailMessage = new MailMessage
 				{
 					From = new MailAddress(_smtpUser),
-					//Subject = subject,
+					Subject = "Confirm email",
 					Body = body,
 					IsBodyHtml = true
 				};

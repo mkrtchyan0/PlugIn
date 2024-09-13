@@ -13,7 +13,7 @@ namespace PlugIn.Repository
         public Task<SignInResult> LoginAsync(LoginForm form);
         public Task LogOutAsync();
         public Task<IdentityResult> AddProjectAsync(ProjectForm form);
-        public Task<string> GenerateEmailConfirmationToken(ApplicationUser user);
-
-	}
+        public Task<bool> SendEmailAsync(string toEmail, string token);
+        public Task<IdentityResult> ConfirmEmailAsync(string email, string token);
+    }
 }

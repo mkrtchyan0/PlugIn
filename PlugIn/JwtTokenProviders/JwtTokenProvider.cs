@@ -8,7 +8,6 @@ namespace PlugIn.JwtTokenProviders
     public class JwtTokenProvider
     {
         private readonly IConfiguration _config;
-
         public JwtTokenProvider(IConfiguration config)
         {
             _config = config;
@@ -27,6 +26,20 @@ namespace PlugIn.JwtTokenProviders
               _config["Jwt:Issuer"],
               claims: claims,
               expires: DateTime.Now.AddMinutes(120),
+              signingCredentials: credentials);
+
+            var token = new JwtSecurityTokenHandler().WriteToken(securityToken);
+            return token;
+        }
+        public string GenerateCustomEmailConfirmationToken()
+        {
+            var key = _config["Authentication:Schemes:Bearer:SigningKey"];
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key ?? "weak key"));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            var securityToken = new JwtSecurityToken(_config["Jwt:Issuer"],
+              _config["Jwt:Issuer"],
+              expires: DateTime.Now.AddDays(3),
               signingCredentials: credentials);
 
             var token = new JwtSecurityTokenHandler().WriteToken(securityToken);
